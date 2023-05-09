@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    background-color: #FFF5E9;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding-left: 2em;
+    gap: 2em;
+    
+
+}
+
+.cabecalho__link {
+    margin-left: 1em;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    color: #5C3F32;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.cabecalho__logo{
+    height: 170px;
+    width: 170px;
+}
+
+.slides{
+    display: flex;
+    justify-content: center;
+    margin: 0 15em 2em 15em;
+    
+}
+
+.slides__img{
+    height: 345px;
+    width: 100%;
+    border-radius: 5px;
+  }
+
+
+
+.contender{
+    margin: 2em 15em 2em 15em;
+    display: flex;
+    flex-direction: row;
+    background-color: #FFF5E9;
+    align-items: center;
+    border-radius: 5px;
+    
+    }
+
+.contender__img{
+    display: block;
+    height: 619px;
+    width: 50%;
+    border-radius: 5px 0 0 5px;
+}
+
+.contender__conteudo{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 2em;
+    gap: 2em;
+    
+}
+
+.contender__titulo{
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    color: #5C3F32;
+}
+
+.contender__texto{
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    color: #5C3F32;
+}
+
+.contender__secundario{
+    margin: 2em 15em 2em 15em;
+    display: flex;
+    flex-direction: row;
+    background-color: #FFF5E9;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.contender__secundario__conteudo{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 2em;
+
+}
+
+.contender__secundario__titulo{
+    text-align: center;
+    padding: 0 2em;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    color: #5C3F32;
+}
+
+.contender__secundario__texto{
+    padding: 0 2em;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    color: #5C3F32;
+
+}
+
+.contender__secundario__img{
+    display: block;
+    height: 420px;
+    width: 50%;
+    border-radius: 0 5px 5px 0;
+}
+
+.contender__img__terciaria{
+    display: block;
+    height: 420px;
+    width: 50%;
+    border-radius: 5px 0 0 5px;
+}
+
+.rodape{
+    background-image: url(/assents/iStock-1135359711-1.png);
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 5em 10em 10em 10em ;
+    gap: 2em;
+}
+
+
+.rodape__redes__img{
+    height: 50px;
+    width: 50px;
+}
+
